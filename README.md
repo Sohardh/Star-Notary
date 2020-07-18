@@ -7,15 +7,15 @@ Versions: Truffle v5.1.13 and OpenZeppelin v2.4.0
 It is a decenteralized smart contract app that provides a web front end to create and lookup stars. 
 The DAPP implements the ERC-721 non-fungible token interface from openzeppelin and is deployed to the public Rinkeby Ethereum test network.
 
-1. ERC-721 Token Name: Star Token
-2. ERC-721 Token Symbol: STC
-3. Versions: Truffle v5.0.4 and OpenZeppelin 2.1.2
+ERC-721 Token Name: Cosoms
+ERC-721 Token Symbol: COS
+Versions: Truffle v5.1.13 and OpenZeppelin v2.4.0
 
 
 ## Smart Contract Functions
 
 The smart contract tokens have a name and a symbol in the StarNotary.sol file in the contracts folder.
-Symbol is a short string "STC", which stands for Star Token Coin in this case. 
+Symbol is a short string "COS", which stands for Cosmo in this case. 
 
 The function `lookUptokenIdToStarInfo` in StarNotary.sol is implemented to look up stars using the token id. The function returns the name of the star.
 
